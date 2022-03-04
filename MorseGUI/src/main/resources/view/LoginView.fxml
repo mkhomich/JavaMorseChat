@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="loginView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.LoginController">
+   <children>
+      <TextField fx:id="loginF" layoutX="244.0" layoutY="139.0" prefHeight="24.0" prefWidth="205.0" />
+      <Text layoutX="206.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Morse Chat" textAlignment="CENTER">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Text layoutX="150.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="loginButton" layoutX="256.0" layoutY="323.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="87.0" text="Connect" />
+      <TextField fx:id="hostnameF" layoutX="244.0" layoutY="230.0" prefHeight="24.0" prefWidth="205.0" promptText="localhost" />
+      <Text layoutX="150.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hostname:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="portF" layoutX="244.0" layoutY="270.0" prefHeight="24.0" prefWidth="205.0" promptText="10000" />
+      <Text layoutX="199.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="250.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Server Details">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
